@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    background-color: lightcyan;
+    font-family: Verdana, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+ul{
+    align-items: center;
+}
+
+
+li{
+    text-align: left;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 28px;
+    background-color: orange;
+    color: white;
+}
