@@ -1,5 +1,11 @@
+body{
+    background-color: #9cc0e7;
+}
+
 div{
     padding: 20px;
+    margin: 20px;
+    border: 10px solid #fcfcfc;
 }
 
 h1{
@@ -10,25 +16,27 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .header{
-    color: lightseagreen;
-    background-color: cyan;
+    color: #9cc0e7;
+    background-color: #faeacb;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 300px;
 }
 
 .description, .steps{
-    color: blueviolet;
-    background-color: lightpink;
-    margin-right: 100px;
+    color: #9cc0e7;
+    background-color: #f7dbd7;
+    margin-right: 300px;
     text-align: left;
 }
 
 .ingredients{
-    color:lightseagreen;
-    background-color: cyan;
-    margin-left: 100px;
+    color: #9cc0e7;
+    background-color: #faeacb;
+    margin-left: 300px;
     text-align: right;
 }
