@@ -16,9 +16,11 @@ h1{
 .flexbox{
     display: flex;
     background-color: #faeacb;;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     border: 10px solid #fcfcfc;
     margin: 30px;
+    
 }
 
 .flexitem{
