@@ -9,10 +9,14 @@ div{
 }
 
 h1{
+    flex: 1 1 0%;
     text-align: center;
+    padding: auto 60px;
+    margin: auto auto;
 }
 
 img{
+    flex:1 1 0%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -20,23 +24,27 @@ img{
 }
 
 .header{
-    color: #9cc0e7;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #C4A484;
     background-color: #faeacb;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 300px;
+    min-width: 350px;
+    margin-right: 20%;
 }
 
 .description, .steps{
-    color: #9cc0e7;
+    color: #C4A484;
     background-color: #f7dbd7;
-    margin-right: 300px;
-    text-align: left;
+    margin-left: 20%;
+    text-align: right;
+    min-width: 350px;
 }
 
 .ingredients{
-    color: #9cc0e7;
+    color: #C4A484;
     background-color: #faeacb;
-    margin-left: 300px;
-    text-align: right;
+    margin-right: 20%;
+    text-align: left;
+    min-width: 350px;
 }
